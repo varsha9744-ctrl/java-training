@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        int y;
+        Scanner az=new Scanner(System.in);
+        y=az.nextInt();
+        if(y%4==0)
+        {
+            if(y%100==0){
+                if(y%400==0){
+                     System.out.println("Leap Year");}
+                else{
+                    System.out.println("Not Leap Year");
+                }
+            }
+            else{
+            System.out.println("Leap Year");
+            }
+        }
+            else{
+            System.out.println("Not Leap Year");
+        }
+    }
+}
