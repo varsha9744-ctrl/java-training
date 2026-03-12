@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int N;
+        Scanner xy=new Scanner(System.in);
+        N=xy.nextInt();
+        if(N%5==0)
+        {
+            System.out.print("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+    }
+}
