@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int N;
+        Scanner xy=new Scanner(System.in);
+        N=xy.nextInt();
+        if(N%2==0)
+        {
+            System.out.println("Even");
+            
+        }    
+        else
+        {
+            System.out.println("Odd");}
+    }
+}
