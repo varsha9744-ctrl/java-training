@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner xy=new Scanner(System.in);
+        int N=xy.nextInt();
+        
+        for (int i=1;i<=10;i++){
+           int multi=i*N;
+        System.out.println(i+"*"+N+"="+multi);
+        }
+    }
+}
