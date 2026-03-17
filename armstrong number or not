@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        int n=x.nextInt();
+        int result=0;
+        int originalnum=n;
+        while(n>0)
+        {int lastNum=n%10;
+        result=result+lastNum*lastNum*lastNum;
+        n=n/10;
+         }
+          if(result==originalnum){
+        System.out.println("Armstrong Number");
+          }
+          else{
+           System.out.println("Not Armstrong Number"); 
+          }
+        
+    }
+}
