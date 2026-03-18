@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner x=new Scanner(System.in);
+        int n=x.nextInt();
+        int ar[]=new int[100];
+        int rar[]=new int[100];
+        for(int i=0;i<n;i++){
+            ar[i]=x.nextInt();
+            rar[i]=ar[i];
+            System.out.print(rar[i]+" ");
+        }
+    }
+}
